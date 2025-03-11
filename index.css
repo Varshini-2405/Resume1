@@ -1,0 +1,97 @@
+*{background-color: lightpink;}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    }
+    
+    .div1 { grid-area: 3 / 4 / 6 / 6;
+    font-size: 32px; 
+    text-align: center;
+    margin-left: 210px;
+    margin-top: 90px;
+position: absolute;
+}
+    .div2 { grid-area: 6 / 4 / 11 / 6;
+    font-size: 19px;
+    text-align: center;
+margin-left: 160px;
+margin-top: 220px;
+position: absolute;}
+    .div3 p { grid-area: 3 / 7 / 6 / 18;
+    font-size: 18px;
+    text-align: center;
+margin-left: 520px;
+margin-top: 120px;
+position: absolute;}
+.div3 h3 { grid-area: 3 / 7 / 5 / 18;
+    margin-left: 520px;
+    margin-top: 90px;
+    font-size: 20px;
+    position: absolute;}
+    .div4 h3 { grid-area: 6 / 7 / 11 / 18;
+     margin-top: 220px;
+     margin-left: 450px;
+     font-size: 20px;
+     position: absolute;}
+    .div4 p { grid-area: 6 / 7 / 11 / 18;
+        margin-left:450px ;
+        margin-top: 240px;
+        font-size: 18px;
+        position: absolute;}
+    .div5 h3{ grid-area: 11 / 4 / 15 / 6;
+    
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 350px;
+    position: absolute;
+    }
+    .div5 p{ grid-area: 11 / 4 / 15 / 6;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 380px;
+        position: absolute;}
+    .div6 h3{ grid-area: 11 / 7 / 15 / 18; 
+    font-size: 20px;
+    margin-left: 310px; 
+    margin-top: 350px;
+    position: absolute;}
+    .div6 p{ grid-area: 11 / 7 / 15 / 18;
+        font-size: 18px;
+        margin-left: 310px;
+        margin-top: 380px;
+       position: absolute;}
+    
+    .div7 h3 { grid-area: 15 / 4 / 19 / 6; 
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 70px;
+    position: absolute;}
+    .div7 p { grid-area: 15 / 4 / 19 / 6;
+        font-size: 18px;
+        margin-left: 220px;
+        margin-top: 105px;
+        position: absolute;}
+    .div8 h3{ grid-area: 15 / 7 / 19 / 13; 
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: 65px;
+    position: absolute;}
+    .div8 p{ grid-area: 15 / 7 / 19 / 13;
+        font-size: 18px;
+        margin-left: 520px;
+        margin-top: 100px;
+        position: absolute;}
+    .div9 h3 { grid-area: 15 / 13 / 19 / 18;
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: 65px;
+    position: absolute;}
+    .div9 p { grid-area: 15 / 13 / 19 / 18;
+        font-size: 18px;
+        margin-left: 1000px;
+        margin-top: 100px;
+        position: absolute;}
